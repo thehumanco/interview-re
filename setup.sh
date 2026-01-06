@@ -3,7 +3,7 @@
 python -m pip install -r requirements.txt
 
 # if setting up answer key repository
-if [ "$(basename "$PWD")" = "glfh-answers" ]; then
+if [ "$(basename "$PWD")" = "interview-re-answers" ]; then
     # download aria devignetting masks
     gdown "https://drive.google.com/uc?id=1hVXvs-hisRZRqMn9b0j_6eW2OZbeCru-&confirm=t"
     unzip devignetting_masks_bin.zip -d devignetting_masks_bin
